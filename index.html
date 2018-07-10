@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<title>Brosso</title>
+		<link rel="stylesheet" href="./assets/css/reset.css" />
+		<link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="./assets/css/slick.css" />
+		<link rel="stylesheet" href="./assets/css/style.css" />
+	</head>
+
+	<body>
+		<div class="wrapper">
+			<div class="mobile-header d-md-none">
+				<div class="logo">
+					<img src="./assets/img/logo.png" alt="logo" class="img-fluid">
+				</div>
+
+				<span class="open-side-menu d-md-none">&#9776;</span>
+			</div>
+
+
+
+			<div class="side-menu d-md-none">
+				<span class="closebtn">
+					&times;
+				</span>
+
+				<div class="side-title">
+					Menu
+				</div>
+				<ul class="side-list">
+					<li>
+						<a href="javascript:;" data-target="mon-compte" class="main-link">
+							Mon Compte
+							<img src="./assets/img/angle-right.svg" alt="right" class="img-fluid">
+						</a>
+					</li>
+
+					<li>
+						<a href="javascript:;" data-target="services" class="main-link">
+							Services
+							<img src="./assets/img/angle-right.svg" alt="right" class="img-fluid">
+						</a>
+					</li>
+
+					<li>
+						<a href="javascript:;" data-target="comparateur" class="main-link">
+							Comparateur
+							<img src="./assets/img/angle-right.svg" alt="right" class="img-fluid">
+						</a>
+					</li>
+				</ul>
+
+				<div class="shadow"></div>
+			</div>
+
+			<div class="side-additional-menu d-md-none mon-compte">
+				<div class="btn-back">
+					<img src="./assets/img/angle-right.svg" class="img-fluid" alt="back">
+				</div>
+
+				<div class="side-title">
+					Mon Compte
+				</div>
+				<ul class="side-list">
+					<li>
+						<a href="javascript:;">Annonce</a>
+					</li>
+
+					<li>
+						<a href="javascript:;">Alertes</a>
+					</li>
+
+					<li>
+						<a href="javascript:;">Liste d’achats</a>
+					</li>
+
+					<li>
+						<a href="javascript:;">S’inscrire</a>
+					</li>
+
+					<li>
+						<a href="javascript:;">Se connecter</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="side-additional-menu d-md-none services">
+				<div class="btn-back">
+					<img src="./assets/img/angle-right.svg" class="img-fluid" alt="back">
+				</div>
+
+				<div class="side-title">
+					Services
+				</div>
+				<ul class="side-list">
+					<li>
+						<a href="javascript:;">destockage</a>
+					</li>
+
+					<li>
+						<a href="javascript:;">Blog</a>
+					</li>
+
+					<li>
+						<a href="javascript:;">Service &amp; Réparations</a>
+					</li>
+
+					<li>
+						<a href="javascript:;">comparateur</a>
+					</li>
+
+					<li>
+						<a href="javascript:;">boutiques</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="side-additional-menu d-md-none comparateur">
+				<div class="btn-back">
+					<img src="./assets/img/angle-right.svg" class="img-fluid" alt="back">
+				</div>
+
+				<div class="side-title">
+					Comparateur
+				</div>
+				<ul class="side-list">
+					<li>
+						<a href="./composants.html">Composants</a>
+					</li>
+
+					<li>
+						<a href="./contacts.html">Ordinateurs</a>
+					</li>
+
+					<li>
+						<a href="./stockage.html">Stockage</a>
+					</li>
+
+					<li>
+						<a href="javascript:;">Périphériques</a>
+					</li>
+
+					<li>
+						<a href="javascript:;">Numérique</a>
+					</li>
+
+					<li>
+						<a href="javascript:;">Petit électroménager</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="main-content">
+				<div class="top-menu d-none d-md-block">
+					<div class="first-menu">
+						<div class="blue-background"></div>
+
+						<div class="container">
+							<div class="items">
+								<div class="item">
+									<a href="javascript:;">Annonce</a>
+								</div>
+
+								<div class="item">
+									<a href="javascript:;">Alertes</a>
+								</div>
+
+								<div class="item">
+									<a href="javascript:;">Liste d’achats</a>
+								</div>
+
+								<div class="item">
+									<a href="javascript:;">S’inscrire</a>
+								</div>
+
+								<div class="item">
+									<a href="javascript:;">Se connecter</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="second-menu">
+						<div class="container">
+							<div class="logo">
+								<img src="./assets/img/logo.png" alt="logo" class="img-fluid">
+							</div>
+
+							<div class="items text-center">
+								<div class="item">
+									<a href="javascript:;">DESTOCKAGE</a>
+								</div>
+
+								<div class="item">
+									<a href="javascript:;">BLOG</a>
+								</div>
+
+								<div class="item">
+									<a href="javascript:;">SERVICE &amp; RÉPARATIONS</a>
+								</div>
+
+								<div class="item">
+									<a href="javascript:;">COMPARATEUR</a>
+								</div>
+
+								<div class="item">
+									<a href="javascript:;">BOUTIQUES</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="third-menu">
+						<div class="container">
+							<div class="items">
+								<a href="./composants.html">
+									<div class="item text-center">
+										<div>
+											<img src="./assets/img/parts.png" alt="Composants" class="img-fluid">
+										</div>
+
+										Composants
+									</div>
+								</a>
+
+								<a href="javascript:;">
+									<div class="item text-center">
+										<div>
+											<img src="./assets/img/laptop.png" alt="Ordinateurs" class="img-fluid">
+										</div>
+
+										<div>
+											Ordinateurs
+										</div>
+									</div>
+								</a>
+
+								<a href="javascript:;">
+									<div class="item text-center">
+										<div>
+											<img src="./assets/img/stock.png" alt="Stockage" class="img-fluid">
+										</div>
+
+										<div>
+											Stockage
+										</div>
+									</div>
+								</a>
+
+								<a href="javascript:;">
+									<div class="item text-center">
+										<div>
+											<img src="./assets/img/screen.png" alt="Périphériques" class="img-fluid">
+										</div>
+
+										<div>
+											Périphériques
+										</div>
+									</div>
+								</a>
+
+								<a href="javascript:;">
+									<div class="item text-center">
+										<div>
+											<img src="./assets/img/camera.png" alt="Numérique" class="img-fluid">
+										</div>
+
+										<div>
+											Numérique
+										</div>
+									</div>
+								</a>
+
+								<a href="javascript:;">
+									<div class="item text-center">
+										<div>
+											<img src="./assets/img/prize.png" alt="électroménager" class="img-fluid">
+										</div>
+
+										<div>
+											Petit électroménager
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="top-banner">
+					<div class="container">
+						<div class="row">
+							<div class="col-sm-12 col-md-6">
+								<div class="title mb-1">
+									RUE MONTGALLET
+								</div>
+
+								<div class="description">
+									Annuaire et comparateur informatique <br> Les bons prix, les bons conseils
+								</div>
+
+								<button>
+									Découvrir
+								</button>
+							</div>
+
+							<div class="d-none d-md-block col-md-6">
+								<img src="./assets/img/main_image.png" class="image-to-move">
+							</div>
+						</div>
+
+						<div class="search input-group">
+							<input type="text" class="form-control" placeholder="Tapez ici votre recherche">
+						  <div class="input-group-append">
+						    <button>
+						    	<img src="./assets/img/search.png" class="img-fluid">
+						    </button>
+						  </div>
+						</div>
+					</div>
+				</div>
+
+				<div class="top-links">
+					<div class="container">
+						<div class="row">
+							<div class="col-6 col-md-3 text-center">
+								<a href="javascript:;">
+									<div>
+										<div class="mb-3">Composants informatiques</div>
+
+										<img src="./assets/img/1.png" class="img-fluid">
+
+										<div class="right-arrow" >
+											<img src="./assets/img/angle-right.svg" class="img-fluid">
+										</div>
+									</div>
+								</a>
+							</div>
+
+							<div class="col-6 col-md-3 text-center">
+								<a href="javascript:;">
+									<div>
+										<div class="mb-3">Ordinateurs &amp; tablettes</div>
+
+										<img src="./assets/img/2.png" class="img-fluid">
+
+										<div class="right-arrow" >
+											<img src="./assets/img/angle-right.svg" class="img-fluid">
+										</div>
+									</div>
+								</a>
+							</div>
+
+							<div class="col-6 col-md-3 text-center">
+								<a href="javascript:;">
+									<div>
+										<div class="mb-3">Stockage et clés USB</div>
+
+										<img src="./assets/img/3.png" class="img-fluid usb-image">
+
+										<div class="right-arrow" >
+											<img src="./assets/img/angle-right.svg" class="img-fluid">
+										</div>
+									</div>
+								</a>
+							</div>
+
+							<div class="col-6 col-md-3 text-center">
+								<a href="javascript:;">
+									<div>
+										<div>Périphériques &amp; écrans</div>
+
+										<img src="./assets/img/4.png" class="img-fluid">
+
+										<div class="right-arrow" >
+											<img src="./assets/img/angle-right.svg" class="img-fluid">
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="shops text-center">
+					<div class="container">
+						<div class="title" >L’annuaire des boutiques</div>
+
+						<div class="description">
+							<div>
+								<span id="paste-name">Easy Multimedia</span>
+
+								<span id="paste-desc">
+									 -  30, rue Montgallet - 75012 Paris <br>
+									Spécialistes cartes mères et réparation express, un savoir faire à toutes épreuve
+								</span>
+						</div>
+
+						<div class="carousel">
+							<div class="car-item">
+								<a href="javascript:;">
+									<img src="./assets/img/car-1.png" alt="car-item" class="img-fluid">
+								</a>
+							</div>
+
+							<div class="car-item">
+								<a href="javascript:;">
+									<img src="./assets/img/car-2.png" alt="car-item" class="img-fluid">
+								</a>
+							</div>
+
+							<div class="car-item">
+								<a href="javascript:;">
+									<img src="./assets/img/car-3.png" alt="car-item" class="img-fluid">
+								</a>
+							</div>
+
+							<div class="car-item">
+								<a href="javascript:;">
+									<img src="./assets/img/car-4.png" alt="car-item" class="img-fluid">
+								</a>
+							</div>
+
+							<div class="car-item">
+								<a href="javascript:;">
+									<img src="./assets/img/car-5.png" alt="car-item" class="img-fluid">
+								</a>
+							</div>
+
+							<div class="car-item">
+								<a href="javascript:;">
+									<img src="./assets/img/car-6.png" alt="car-item" class="img-fluid">
+								</a>
+							</div>
+
+							<div class="car-item">
+								<a href="javascript:;">
+									<img src="./assets/img/car-7.png" alt="car-item" class="img-fluid">
+								</a>
+							</div>
+
+							<div class="car-item">
+								<a href="javascript:;">
+									<img src="./assets/img/car-1.png" alt="car-item" class="img-fluid">
+								</a>
+							</div>
+
+							<div class="car-item">
+								<a href="javascript:;">
+									<img src="./assets/img/car-2.png" alt="car-item" class="img-fluid">
+								</a>
+							</div>
+
+							<div class="car-item">
+								<a href="javascript:;">
+									<img src="./assets/img/car-3.png" alt="car-item" class="img-fluid">
+								</a>
+							</div>
+
+							<div class="car-item">
+								<a href="javascript:;">
+									<img src="./assets/img/car-4.png" alt="car-item" class="img-fluid">
+								</a>
+							</div>
+
+							<div class="car-item">
+								<a href="javascript:;">
+									<img src="./assets/img/car-5.png" alt="car-item" class="img-fluid">
+								</a>
+							</div>
+
+							<div class="car-item">
+								<a href="javascript:;">
+									<img src="./assets/img/car-6.png" alt="car-item" class="img-fluid">
+								</a>
+							</div>
+
+							<div class="car-item">
+								<a href="javascript:;">
+									<img src="./assets/img/car-7.png" alt="car-item" class="img-fluid">
+								</a>
+							</div>
+
+
+						</div>
+					</div>
+				</div>
+
+				<div class="bottom-links">
+					<div class="container">
+						<div class="title text-center">
+							Découvrir la rue Montgallet
+						</div>
+
+						<div class="description text-center">
+							De vrais bons conseils, du stock disponible, des bons prix...
+						</div>
+
+						<div class="row">
+							<div class="col-sm-12 col-lg-6 first-column">
+								<a href="javascript:;" class="big-item">
+									<img src="./assets/img/big-item.png" alt="video" class="img-fluid">
+
+									<div class="item-desc">
+										<div>
+											Visite guidée de la rue
+										</div>
+
+										<div>
+											A la rencontre des pionniers
+										</div>
+									</div>
+								</a>
+							</div>
+
+							<div class="col-12 col-lg-6 second-column">
+								<div class="sm-adv-holder">
+									<a href="javascript:;">
+										<div class="container adv">
+											<img src="./assets/img/top-adv.png" alt="shop">
+
+											<div class="text ">
+												<div>La boutique du mois I Montgallet PC</div>
+												<div>Des prix, du service, du talent</div>
+											</div>
+										</div>
+									</a>
+
+									<a href="javascript:;">
+										<div class="container adv ">
+											<img src="./assets/img/bottom-adv.png" alt="shop">
+
+											<div class="text ">
+												<div>Le vendeur du <span class="nowrap">mois I Alexandre</span></div>
+												<div>Les bons conseils, d’un  pro de l’assemblage</div>
+											</div>
+										</div>
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-12 col-lg-6 first-column">
+								<a href="javascript:;" class="fb-link text-center">
+									<div>
+										<img src="./assets/img/fb.png" alt="facebook" class="fb-button">
+
+										<div>
+											<div class="big-text text-left">
+												Ça bouge fort sur facebook
+											</div>
+
+											<div class="text-left">
+												Bons plans, jeux, promos exclusives...
+											</div>
+										</div>
+									</div>
+								</a>
+							</div>
+
+							<div class="col-12 col-lg-6 second-column">
+								<a href="javascript:;" class="sale-link text-center">
+									<div>
+										<img src="./assets/img/iphone.png" alt="phone" class="phone-image">
+
+										<div>
+											<div class="big-text">
+												Déstockage !!
+											</div>
+
+											<div class="text-left">
+												iphone 5S à 199€
+											</div>
+										</div>
+
+										<span class="right-arrow" >
+											<img src="./assets/img/angle-right.svg" class="img-fluid">
+										</span>
+									</div>
+								</a>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-12 col-lg-6 first-column">
+								<a href="javascript:;" class="adv big-adv">
+									<div class="container">
+										<div class="row">
+											<div class="col-5">
+												<div class="header">
+													Le coins du numérique
+												</div>
+
+												<span>
+													Téléviseur <br> Appareil photo <br> Téléphone portable <br> Lecteur MP3
+												</span>
+											</div>
+
+											<div class="col-7">
+												<img src="./assets/img/adv-camera.png" alt="camera" class="img-fluid">
+											</div>
+										</div>
+
+										<span class="right-arrow" >
+											<img src="./assets/img/angle-right.svg" class="img-fluid">
+										</span>
+									</div>
+								</a>
+							</div>
+
+							<div class="col-12 col-lg-6 second-column">
+								<a href="javascript:;" class="adv big-adv">
+									<div class="container">
+										<div class="row">
+											<div class="col-5">
+												<div class="header">
+													Petit  électroménager
+												</div>
+
+												<span>
+													Cuisson <br> Cuisine <br> Beauté <br> Santé
+												</span>
+											</div>
+
+											<div class="col-7">
+												<img src="./assets/img/adv-cook.png" alt="camera" class="img-fluid">
+											</div>
+										</div>
+
+										<span class="right-arrow" >
+											<img src="./assets/img/angle-right.svg" class="img-fluid">
+										</span>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="footer-top">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-1 d-none d-md-block">
+							<div class="logo text-center">
+								<img src="./assets/img/logo.png" alt="logo" class="img-fluid">
+							</div>
+						</div>
+
+						<div class="col-12 col-md-3 offset-md-1">
+							<div class="links">
+								<span>
+									RUE MONTGALLET
+								</span><br>
+								 <a href="javascript:;">Contactez-nous</a> <br>
+
+								 <a href="javascript:;">Conditions d’utilisation</a> <br>
+
+								 <a href="javascript:;">Partenariats</a>
+							</div>
+						</div>
+
+						<div class="col-12 col-md-3">
+							<div class="links">
+								<span>
+									COMPAREZ LES PRIX
+								</span><br>
+								 <a href="./composants.html">Composants</a> <br>
+
+								 <a href="./contacts.html">Ordinateurs</a> <br>
+
+								 <a href="./stockage.html">Stockage</a> <br>
+
+								 <a href="javascript:;">Périphériques</a> <br>
+
+								 <a href="javascript:;">Numérique</a> <br>
+
+								 <a href="javascript:;">Petit électroménager</a>
+							</div>
+						</div>
+
+						<div class="col-12 col-md-3">
+							<div class="links">
+								<span>
+									ÇA BOUGE !
+								</span><br>
+								 <a href="javascript:;">Promotions</a> <br>
+
+								 <a href="javascript:;">Top produits</a> <br>
+
+								 <a href="javascript:;">Nouveautés</a> <br>
+
+								 <a href="javascript:;">Marques</a>
+							</div>
+						</div>
+
+						<div class="col-md-1 d-none d-md-block fb">
+							<a href="javascript:;">
+								<img src="./assets/img/fb.png" alt="facebook" class="img-fluid">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="footer-bottom">
+				<div class="container">
+					Copyright 2000-2017 <br> rue-montgallet.com - Tous droits réservés
+				</div>
+			</div>
+		</div>
+
+		<script src="./assets/js/jquery-3.2.1.min.js"></script>
+		<script src="./assets/js/popper.js"></script>
+		<script src="./assets/js/bootstrap.min.js"></script>
+		<script src="./assets/js/slick.min.js"></script>
+		<script src="./assets/js/script.js"></script>
+	</body>
+</html>
